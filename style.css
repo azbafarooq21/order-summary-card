@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.attribution {
+    font-size: 11px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+section {
+    background-color: lightblue;
+}
+
+.main {
+    display: flex;
+    padding-top: 50px;
+}
+
+.wrap {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.summary_card_main {
+    display: inline-block;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+.hero img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.content {
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.content h2 {
+    margin: 35px 0 10px 0;
+    color: midnightblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.content p {
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.music_plan {
+
+    background-color: ghostwhite;
+    display: flex;
+    place-items: center;
+    padding: 15px;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.music_text {
+    display: flex;
+    flex-direction: column;
+    margin-left: -60px;
+    color: gray;
+}
+
+.music_change a {
+    color: blue;
+    font-weight: bold;
+}
+
+.music_change a:hover {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.button button {
+    border: none;
+    color: #FFF;
+    font-size: 18px;
+    background-color: blue;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    cursor: pointer;
+    box-shadow: 3px 6px 33px #888888;
+    margin-bottom: 30px;
+}
+
+.button button:hover {
+    background-color: blueviolet;
+}
+
+.cancle button {
+    border: none;
+    font-size: 18px;
+    width: 100%;
+    background-color: transparent;
+    color: gray;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.cancle button:hover {
+    font-weight: bold;
+    color: #000;
+
+}
+
+/* media quries */
+@media (max-width:600px) {
+    .main {
+        padding: 35px;
+    }
+
+    .hero img {
+        width: 100%;
+    }
+
+    .content {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+
+    .music_text {
+        margin-left: -15px;
+    }
+
+    .music_text,
+    .music_change {
+        font-size: 15px;
+    }
+}
